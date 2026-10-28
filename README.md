@@ -4,8 +4,11 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.103+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAbhiSethiya%2FMultimodal-Construction-Intelligence-Platform)
 [![Pydantic](https://img.shields.io/badge/Pydantic-v2-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev)
 [![Standards](https://img.shields.io/badge/Standards-OSHA%20%7C%20ACI%20318%20%7C%20Eurocode-F59E0B?style=for-the-badge)](https://www.osha.gov)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FAbhiSethiya%2FMultimodal-Construction-Intelligence-Platform)
 
 > **ConstructIQ™** is an intelligent, full-stack decision-support system designed to assist construction professionals across multiple stages of construction planning, execution, and monitoring. The platform leverages multimodal artificial intelligence to interpret unstructured data (site photos, crack imagery, blueprints, field voice notes) and generate real-time, context-aware engineering insights.
 
