@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     API_PREFIX: str = "/api"
     GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")
     PORT: int = int(os.getenv("PORT", 8000))
-    HOST: str = "127.0.0.1"
+    HOST: str = os.getenv("HOST", "0.0.0.0")
     CORS_ORIGINS: list = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
