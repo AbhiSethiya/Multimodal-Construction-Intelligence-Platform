@@ -12,7 +12,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://constructiq-backend.onrender.com/api/:path*"
+      "destination": "https://constructiq-backend-4ols.onrender.com/api/:path*"
     }
   ],
   "routes": [
