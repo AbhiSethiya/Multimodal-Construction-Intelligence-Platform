@@ -9,13 +9,11 @@
       }
     }
   ],
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://constructiq-backend-4ols.onrender.com/api/:path*"
-    }
-  ],
   "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://constructiq-backend-4ols.onrender.com/api/$1"
+    },
     {
       "src": "/(.*)",
       "dest": "frontend/$1"
