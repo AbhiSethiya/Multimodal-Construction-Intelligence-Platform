@@ -2,10 +2,6 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.py",
-      "use": "@vercel/python"
-    },
-    {
       "src": "frontend/package.json",
       "use": "@vercel/static-build",
       "config": {
@@ -13,11 +9,13 @@
       }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "api/index.py"
-    },
+      "source": "/api/:path*",
+      "destination": "https://constructiq-backend.onrender.com/api/:path*"
+    }
+  ],
+  "routes": [
     {
       "src": "/(.*)",
       "dest": "frontend/$1"
